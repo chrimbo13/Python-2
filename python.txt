@@ -1,0 +1,10 @@
+def lunghezza_parole(lista_parole):
+    lunghezze = []  # Lista vuota per memorizzare le lunghezze delle parole
+    for parola in lista_parole:
+        lunghezze.append(len(parola))  # Aggiunge la lunghezza di ogni parola alla lista
+    return lunghezze
+
+# Esempio di utilizzo della funzione
+lista_parole = ["cane", "gatto", "elefante", "uccello"]
+lunghezze = lunghezza_parole(lista_parole)
+print("Lista di lunghezze:", lunghezze)
